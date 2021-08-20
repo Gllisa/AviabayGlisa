@@ -21,46 +21,26 @@ html {
     font-family: sans-serif;
 }
 
-.paragraph, .heading, .headingchapter {
+.header__paragraph, .articles__paragraph, .bottom__paragraph, .basement__paragraph, .rights__paragraph, .contact__paragraph{
+    font-size: 16px;
+    line-height: 26px;
     color: #1F3F68;
 }
 
-.heading-connection, .heading-articles, .input{
-    text-align: center;
-}
-
-.paragraph{
-    font-size: 16px;
-    line-height: 26px;
-    text-align: center; /*Моя личная прерогатива*/
-}
-
-.paragraph-contacts{
-    font-size: 16px;
-    line-height: 26px;
-}
-
-.heading{
+.header__heading{
     font-size: 64px;
+    color: #1F3F68;
 }
 
-.heading-content{
+.heading-content, .basement__heading{
     font-size: 36px;
     text-align: center;
 }
 
-.heading-connection{
-    font-weight: 500;
-    font-size: 44px;
-}
-
-.heading-articles{
-    font-size: 20px;
-}
-
-.heading-hapter{
+.articles__heading, .contact__chapter, .feedback__heading{
     font-size: 20px;
     line-height: 30px;
+    color: #1F3F68;
 }
 
 .input{
@@ -81,7 +61,7 @@ html {
 }
 
 .reset{
-    background: rgb(255, 100, 100);
+    background: rgb(209, 92, 92);
 }
 
 .send{
