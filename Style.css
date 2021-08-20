@@ -1,44 +1,115 @@
+
+/*
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⡿⠿⠛⠉⠉⠉⠉⠛⠻⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⠁⠄⠄⠄⠄⠄⠄⠄⠄⣀⠄⠄⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣷⠄⢀⣠⣴⣾⣿⣷⠄⠄⢿⡇⠄⣤⣤⣀⠉⠙⠛⠛⠿⠿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣷⠛⠋⠉⠄⣨⣿⠄⠄⢸⠁⢠⣿⣿⣿⣿⣦⠄⢀⡀⠄⠄⠄⠉⠻⢿⣿⣿
+⣿⣿⣿⠄⠄⠄⠾⠿⠏⠄⠄⠄⠄⠄⠉⠉⠈⠙⠛⠄⠛⠛⠄⠄⠄⠈⠓⠆⢻⣿
+⣿⠟⠁⠄⠐⠶⣶⣶⣶⣶⠆⢀⣴⣶⣦⠄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣿
+⣿⡄⠄⠄⠄⣀⠄⠈⠉⠁⠄⣾⣿⣿⣿⣿⣧⣶⣶⠂⢀⣀⡀⠄⠄⠄⠄⢀⣿⣿
+⣿⣿⣄⠄⠄⠉⠄⠄⠄⠄⠄⠈⠛⣿⣿⣿⣿⣿⣧⣶⣿⣿⠃⣠⣿⡇⢀⣾⣿⣿
+⣿⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⠄⠄⠙⢋⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿
+⣿⣿⣿⣿⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠉⠁⣠⣿⡿⢃⣿⡿⢻⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣷⣦⣤⣄⡀⠄⠄⠄⠄⠄⠄⠄⠈⠉⠄⠾⠋⠄⣾⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⣀⣀⣀⣀⣠⣾⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+*/
+
 html {
     font-family: sans-serif;
+}
+
+.paragraph, .heading, .headingchapter {
+    color: #1F3F68;
+}
+
+.heading-connection, .heading-articles, .input{
+    text-align: center;
 }
 
 .paragraph{
     font-size: 16px;
     line-height: 26px;
-    color: #1F3F68;
+    text-align: center; /*Моя личная прерогатива*/
+}
+
+.paragraph-contacts{
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .heading{
     font-size: 64px;
-    color: #1F3F68;
 }
 
-.heading2{
-    font-weight: 500;
-    font-size: 44px;
-    text-align: center;
-}
-
-.heading3{
+.heading-content{
     font-size: 36px;
     text-align: center;
 }
 
-.heading4{
+.heading-connection{
+    font-weight: 500;
+    font-size: 44px;
+}
+
+.heading-articles{
+    font-size: 20px;
+}
+
+.heading-hapter{
     font-size: 20px;
     line-height: 30px;
-    color:#1F3F68;
 }
 
 .input{
-    background: #5A98D0;
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.send, .reset{
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    text-align: center;
     color: #FFFFFF;
     text-transform: uppercase;
 }
 
+.reset{
+    background: rgb(255, 100, 100);
+}
+
+.send{
+    background: #5A98D0;
+}
+
+ .doge{
+     width: 450px;
+ }
+ 
+ .list{
+     list-style-type: none;
+ }
+
+
+.Anime{
+    font-size: 30px;
+    line-height: 26px;
+    text-align: center;
+    animation: anime 5s 1;
+}
+
+@keyframes anime{
+    0%{
+        color: white;
+
+    }
+    10%{
+        color: white;
+    }
+}
