@@ -17,22 +17,73 @@
 ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
 */
 
-html {
+* {
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header__paragraph, .articles__paragraph, .bottom__paragraph, .basement__paragraph, .rights__paragraph, .contact__paragraph{
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.cap, .content, .list, .contact-container{
+    display: flex;
+}
+
+.cap{
+    justify-content: space-between;
+}
+
+.content, .list{
+    justify-content: space-around;
+}
+
+.attic, .basement{
+    display: inline-block;
+}
+
+.attic__heading{
+    width: 510px;
+    border: 1px solid black; /*Все рамки для наглядности*/
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.attic__paragraph{
+    width: 425px;
+    border: 1px solid black;
+}
+
+.basement{
+    width: 495px;
+    border: 1px solid black ;
+}
+
+.basement__heading{
+    width: 400px; /*Если поставить меньше, то слово статься перепрыгнет на новую строчку*/
+    border: 1px solid black ;
+}
+
+.contact-container{
+    justify-content: center;
+}
+
+.feedback,.bottom, .contact-information{    
+    border: 1px solid black;}
+
+.attic__paragraph, .articles__paragraph, .bottom__paragraph, .basement__paragraph, .rights__paragraph, .contact__paragraph{
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
 }
 
-.header__heading{
-    font-size: 64px;
-    color: #1F3F68;
+.bottom__paragraph{
+    text-align: center;
 }
 
-.heading-content, .basement__heading{
+.heading-content, .basement__heading, .bottom__heading{
     font-size: 36px;
     text-align: center;
 }
@@ -41,6 +92,10 @@ html {
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+}
+
+.doge{
+    width: 250px;
 }
 
 .input{
@@ -67,12 +122,11 @@ html {
 .send{
     background: #5A98D0;
 }
-
- .doge{
-     width: 450px;
+ .map{
+    border: 1px  red solid;
  }
- 
- .list{
+
+ .list, .phone{
      list-style-type: none;
  }
 
