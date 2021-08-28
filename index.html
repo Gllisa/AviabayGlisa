@@ -11,51 +11,74 @@
 
 <body>
     <header class="red-frame1">
-        <div class="container">
-            <div class="cap">
-                <a href="index.html">Главная</a>
-                <a href="contacts.html">Контакты</a>
+        <div class="container top">
+            <div class="box-cap">
+                <ul class="cap">
+                    <li><a href="index.html"><img src="img/icons8-home.svg" alt="home"></a></li>
+                    <li><a href="contacts.html"><img src="img/icons8-contacts.svg" alt="contact"></a></li>
+                </ul>
             </div>
 
             <div class="attic">
-                <h1 class="attic__heading">Главная</h1>
                 <h1 class="attic__heading">Aviabay|Glisa</h1>
-                <p class="attic__paragraph">Здравствуйте! И Бобро поржаловать на мой личный блог, посвящённый миру
-                    авиации. Так
-                    сложилось, что я с
-                    самого своего рождения неразрывно связан с самолётами и свою жизнь я хочу посвятить именно им. И я
-                    решил
-                    создать этот блог с целью хранения интересных фактов из мира авиации из совершенно разных
-                    источников,
-                    дабы помнить самому и делиться с
-                    читателями </p>
+                <p class="text attic__paragraph">Сборник статей по авиации и космосу из разных источников</p>
+                <a class="link-publication" href="#publication">Публикации</a>
             </div>
         </div>
     </header>
 
-    <main class="House container">
-        <h3 class="heading-content">Публикации</h3>
+    <div class="house container">
+        <a id="publication">
+            <h3 class="heading-content">Публикации</h3>
+        </a>
         <div class="content">
             <div class="articles articles-1">
-                <h4 class="articles__heading">Братья Хортен</h4>
-                <p class="articles__paragraph">Horten Ho.229 Vol3 "НЛО"</p>
+                <img class="image-ho229" src="img/horton 229-2.jpg" alt="image_ho229">
+                <h4 class="articles__heading">Horten Ho.229 Vol3 "НЛО"</h4>
+                <p class=" text articles__paragraph"> Ho-229 задумывался как дневной истребитель,
+                    бомбардировщик-перехватчик, хотя в конечном итоге, как и многие фэнтезийные истребители Люфтваффе,
+                    он должен был выполнять множество других функций. Вальтер Хортен изначально выступал за реактивную
+                    мощность, потому что, будучи пилотом-истребителем...</p>
+                <a class="link-continuation" href="#">Читать далее</a>
             </div>
             <div class="articles articles-2">
-                <h4 class="articles__heading">Пе-3</h4>
-                <p class="articles__paragraph">Гадкий утёнок</p>
+                <img class="image-pe3" src="img/pe-3.jpg" alt="image_pe3">
+                <h4 class=" articles__heading">Пе-3</h4>
+                <p class=" text articles__paragraph"> История создания самолёта Пе-3, начинается с самолёта ВИ-100,
+                    буквы в его названии означают высотный истребитель. И работать над ним Владимир Михайлович Петляков
+                    начал в тюрьме. Конструкция ВИ-100 была чрезвычайно продвинутой для своего времени - машину
+                    планировали оснастить...</p>
+                <a class="link-continuation" href="#">Читать далее</a>
             </div>
             <div class="articles articles-3">
+                <img class="image-b747" src="img/747-8F_line_drawing-1.jpg" alt="image_b747">
                 <h4 class="articles__heading">Корабль-матка</h4>
-                <p class="articles__paragraph">Возможен ли летающий авианосец?</p>
+                <p class=" text articles__paragraph">Авианосец, по определению, является "большим кораблем, который
+                    несет военные самолеты и имеет длинную, плоскую поверхность, где они взлетают и приземляются". Оплот
+                    любого современного флота, Но в истории авианосцы – это не только корабли...</p>
+                <a class="link-continuation link-3" href="#">Читать далее</a>
             </div>
         </div>
-    </main>
+    </div>
 
     <div class="bottom container">
-        <h3 class="bottom__heading">lorem</h3>
-        <p class="bottom__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla ducimus aliquid,
-            fugiat debitis cupiditate
-            nostrum .</p>
+        <h3 class="bottom__heading">Место космоса</h3>
+        <p class=" text bottom__paragraph">Простите за технические шоколадки</p>
+        <div class="bottom__item">
+            <img class="bottom__img_moon" src="img/Mask Group.png" alt="Photo">
+            <p class="bottom__text">Рыба текст</p>
+        </div>
+        <div class="bottom__parent">
+            <div class="bottom__item bottom__item-margin">
+                <img class="bottom__img" src="img/img-1.png" alt="Photo">
+                <p class="bottom__text-1">Рыба текст</p>
+            </div>
+            <div class="bottom__item">
+                <img class="bottom__img" src="img/img-2.png" alt="Photo">
+                <p class="bottom__text-2">Рыба текст</p>
+            </div>
+        </div>
+    </div>
     </div>
 
     <footer class="red-frame2">
@@ -63,7 +86,7 @@
             <div class="basement">
                 <div>
                     <h3 class="basement__heading">Понравилась статья?</h3>
-                    <p class="basement__paragraph">Поддержи обратной связью!</p>
+                    <p class=" text basement__paragraph">Поддержи обратной связью!</p>
                 </div>
             </div>
             <hr>
@@ -74,7 +97,7 @@
                     <li>emaksishkin@mail.ru</li>
                 </ul>
                 <div class="rights">
-                    <p class="rights__paragraph">Все права защищены</p>
+                    <p class=" text rights__paragraph">Все права защищены</p>
                 </div>
             </div>
         </div>

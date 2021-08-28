@@ -23,9 +23,32 @@
     padding: 0;
 }
 
+.text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    opacity: 0.6;
+    letter-spacing: 0.05em;
+}
+
 .container{
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.red-frame1{
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    height: 768px;
+}
+
+.cap{
+    list-style-type: none;
 }
 
 .cap, .content, .list, .contact-container{
@@ -40,48 +63,161 @@
     justify-content: space-around;
 }
 
+.content{
+    padding-top: 64px;
+}
+
+.box-cap{
+    padding-top: 34px;
+}
+
+.attic{
+    padding-top: 107px;
+    flex-grow: 1;
+    background-image: url(img/Su34.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
 .attic, .basement{
     display: inline-block;
 }
 
 .attic__heading{
     width: 510px;
-    border: 1px solid black; /*Все рамки для наглядности*/
     font-size: 64px;
+    font-weight: 300;
+    line-height: 74px;
+    letter-spacing: 0.04em;
     color: #1F3F68;
+    margin-bottom: 32px;
 }
 
 .attic__paragraph{
     width: 425px;
-    border: 1px solid black;
+}
+
+.house{
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.articles{
+    width: 359px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 44px 32px;
+    flex-direction: column;
+    display: flex;
+}
+
+.articles__heading{
+    padding-bottom: 14px;
+}
+
+.image-ho229{
+    padding-bottom: 51px;
+    align-self: center;
+    width: 300px;
+}
+
+.image-pe3{
+    padding-bottom: 111px;
+    align-self: center;
+    width: 320px;
+}
+
+.image-b747{
+    align-self: center;
+    width: 320px;
+}
+
+.link-continuation{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    display: inline-block;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.link-3{
+    padding-top: 60px;
+}
+
+.bottom__img, .bottom__img_moon{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.bottom__item{
+    position: relative;
+    flex-grow: 1;
+}
+
+.bottom__parent{
+    display: flex;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.bottom__item-margin{
+    margin-right: 32px;
+}
+
+.bottom__text, .bottom__text-2, .bottom__text-1{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: left;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+.bottom__text-2, .bottom__text-1{
+    top: 32px;
+    left: 32px;
+  
+}
+
+.bottom__text{
+    top: 64px;
+    right: 64px;
 }
 
 .basement{
     width: 495px;
-    border: 1px solid black ;
 }
 
 .basement__heading{
-    width: 400px; /*Если поставить меньше, то слово статься перепрыгнет на новую строчку*/
-    border: 1px solid black ;
+    width: 400px;
+}
+
+.bottom__paragraph{
+    margin: 32px auto 64px;
+    opacity: 1;
+    width: 75%;
+    color: #222222;
+    text-align: center;
 }
 
 .contact-container{
     justify-content: center;
 }
 
-.feedback,.bottom, .contact-information{    
-    border: 1px solid black;}
-
-.attic__paragraph, .articles__paragraph, .bottom__paragraph, .basement__paragraph, .rights__paragraph, .contact__paragraph{
-    font-size: 16px;
-    line-height: 26px;
-    color: #1F3F68;
+.link-publication{
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 50px;
+    margin-top: 71px;
 }
 
-.bottom__paragraph{
-    text-align: center;
-}
 
 .heading-content, .basement__heading, .bottom__heading{
     font-size: 36px;
@@ -92,6 +228,7 @@
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+    letter-spacing: 0.05em;
 }
 
 .doge{
@@ -122,28 +259,7 @@
 .send{
     background: #5A98D0;
 }
- .map{
-    border: 1px  red solid;
+
+.list, .phone{
+    list-style-type: none;
  }
-
- .list, .phone{
-     list-style-type: none;
- }
-
-
-.Anime{
-    font-size: 30px;
-    line-height: 26px;
-    text-align: center;
-    animation: anime 5s 1;
-}
-
-@keyframes anime{
-    0%{
-        color: white;
-
-    }
-    10%{
-        color: white;
-    }
-}
