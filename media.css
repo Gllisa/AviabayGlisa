@@ -1,0 +1,269 @@
+/*
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⡿⠿⠛⠉⠉⠉⠉⠛⠻⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⠁⠄⠄⠄⠄⠄⠄⠄⠄⣀⠄⠄⠈⠙⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣷⠄⢀⣠⣴⣾⣿⣷⠄⠄⢿⡇⠄⣤⣤⣀⠉⠙⠛⠛⠿⠿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣷⠛⠋⠉⠄⣨⣿⠄⠄⢸⠁⢠⣿⣿⣿⣿⣦⠄⢀⡀⠄⠄⠄⠉⠻⢿⣿⣿
+⣿⣿⣿⠄⠄⠄⠾⠿⠏⠄⠄⠄⠄⠄⠉⠉⠈⠙⠛⠄⠛⠛⠄⠄⠄⠈⠓⠆⢻⣿
+⣿⠟⠁⠄⠐⠶⣶⣶⣶⣶⠆⢀⣴⣶⣦⠄⡀⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢀⣿
+⣿⡄⠄⠄⠄⣀⠄⠈⠉⠁⠄⣾⣿⣿⣿⣿⣧⣶⣶⠂⢀⣀⡀⠄⠄⠄⠄⢀⣿⣿
+⣿⣿⣄⠄⠄⠉⠄⠄⠄⠄⠄⠈⠛⣿⣿⣿⣿⣿⣧⣶⣿⣿⠃⣠⣿⡇⢀⣾⣿⣿
+⣿⣿⣿⣷⠄⠄⠄⠄⠄⠄⠄⠄⠄⠙⢋⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣷⣿⣿⣿⣿
+⣿⣿⣿⣿⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠉⠁⣠⣿⡿⢃⣿⡿⢻⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣷⣦⣤⣄⡀⠄⠄⠄⠄⠄⠄⠄⠈⠉⠄⠾⠋⠄⣾⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣦⣄⡀⠄⠄⠄⠄⠄⠄⠄⠄⢸⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣤⣀⣀⣀⣀⣠⣾⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+*/
+
+@media (max-width: 1024px){
+    
+    .red-frame1{
+        min-height: 768px;
+    }
+
+    .header-box{
+        height: 100%;
+        margin-bottom: 64px;
+    }
+
+    .container{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .attic{
+        background-position: right 150px;
+        background-size: 80%;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .articles{
+        margin-bottom: 32px;
+    }
+
+    .contact-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .basement{
+       padding-left: 92px;
+       padding-right: 92px;
+       padding-bottom: 64px;
+    }
+    .list{
+        flex-direction: column;
+
+    }
+    .list-com{
+        margin-bottom: 25px;
+    }
+
+    .contact-information{
+        margin-bottom: 64px;
+    }
+
+    .doge{
+        margin-bottom: 24px;
+    }
+
+    .feedback{
+        margin-bottom: 64px;
+    }
+
+    .red-frame2{
+        margin-top: 109px;
+        padding-top: 47px;
+    }
+
+    .link-talk{
+        padding: 3px 10px;
+    }
+    
+    .album-items{
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .list{
+        padding-left: 92px;
+    }
+
+    .rights{
+        padding-left: 92px;
+    }
+
+    .link-talk{
+        padding: 15px 80px;
+    }
+
+}
+
+@media (max-width: 667px){
+
+    .container{
+        padding-left:16px;
+        padding-right:16px;
+       
+    }
+
+    .attic{
+        background-image: none;
+        padding-top: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .attic__heading{
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .attic__paragraph, .basement__paragraph, .basement__heading,.attic__heading{
+        width: 100%;
+        text-align: center;
+    }
+
+    .link-publication{
+        font-size: 12px;
+        text-align: center;
+        padding: 8px 16px;
+        margin-bottom: 41px;
+    }
+    .red-frame1{
+        min-height: 376px;
+    }
+
+    .heading-content,.basement__heading{
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .house {
+        margin-top: 48px;
+    }
+    
+    .bottom__paragraph{
+        margin: 32px auto 82px;
+    }
+
+    .content {
+        padding-top: 32px;
+    }
+
+    .articles{
+        width: 100%;
+    }
+    .image-ho229, .image-pe3,.image-b747{
+        width: 270px;
+    }
+
+    .red-frame2 {
+        margin-top: 64px;
+        padding-top: 18px;
+        padding-bottom: 32px;
+    }
+    
+    .bottom__parent{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .bottom__item-margin{
+        margin: 0;
+        margin-bottom: 16px;
+    }
+    .bottom__text,.bottom__text-1,.bottom__text-2{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .bottom__text{
+        top: 16px;
+        left: 151px;
+        width: 100px;
+    }
+    .bottom__text-1,.bottom__text-2{
+        top: 16px;
+        right: 16px;
+    }
+
+    .basement {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 41px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .link-talk{
+        margin-top: 40px;
+        padding: 8px 16px;
+    }
+    .list{
+        flex-direction: column;
+        margin-top: 32px;
+        margin-bottom: 20px;
+    }
+    .list-com{
+        margin-bottom: 17px;
+    }
+
+    .header-box{
+        height: 100%;
+        margin-bottom: 46px;
+    }
+    .contact__chapter{
+        margin-top: 32px;
+    }
+
+    .contact-information{
+        margin-bottom: 32px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .feedback{
+    width: 100%;
+    padding: 36px 36px;
+    }
+
+    .feedback__heading{
+        font-size: 16px;
+        margin: 0 auto;
+        margin-bottom: 31px;
+    }
+
+    .send{
+        font-size: 16px;
+        padding: 15px 60px;
+        margin-top: 14px;
+    }
+
+    .input{
+        padding: 13px 26px ;
+    }
+
+    .feedback__text, .input::placeholder{
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .doge{
+        width: 100%;
+    }
+
+    .rights{
+        padding: 0;
+    }
+
+    .list{
+        padding: 10px;
+    }
+}

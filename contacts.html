@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Aviabay|Contacts|Glisa</title>
 </head>
 
 <body>
-    <header class="red-frame1">
+    <header class="red-frame1 header-box">
         <div class="container">
             <div class="box-cap">
                 <ul class="cap">
@@ -18,67 +19,86 @@
                     <li><a href="contacts.html"><img src="img/icons8-contacts.svg" alt="contact"></a></li>
                 </ul>
             </div>
-
-            <div class="attic">
-                <h1 class="attic__heading">Контакты</h1>
-                <span class="Anime">
-                    <p class="text">anime-master</p>
-                </span>
+        </div>
+        <div class="clouds">
+            <div class="container">
+                <div class="attic noimage">
+                    <h1 class="attic__heading contact-heading">Контакты</h1>
+                    <p class="text anime-text">anime-master</p>
+                </div>
             </div>
         </div>
     </header>
 
-    <main class="contact-block container">
+    <div class="contact-block container">
         <div class="contact-container">
             <div class="contact-information">
                 <img class="doge" src="img/Dog.jpg" alt="photo">
                 <h4 class="contact__chapter">Адрес</h4>
-                <p class=" text contact__paragraph">Республика Татарстан. Казань</p>
+                <p class="text contact__paragraph">Республика Татарстан. Казань</p>
                 <h4 class="contact__chapter">Телефон</h4>
 
-                <ul class="phone">
-                    <li>+7 (999) 222-33-44</li>
-                    <li>+7 (999) 333-44-55</li>
+                <ul class="contact-information__phone">
+                    <li class="adtritio">
+                        +7 (999) 222-33-44
+                    </li>
+                    <li class="adtritio">
+                        +7 (999) 333-44-55
+                    </li>
                 </ul>
 
                 <h4 class="contact__chapter">Интернет контакты</h4>
-                <a href="https://github.com/Gllisa" target="_blank">GitHub</a>
-                <a href="https://e.mail.ru/inbox/" target="_blank">Mail.ru</a>
+                <ul class="contact-information__link">
+                    <li class="adtritio"><a href="https://github.com/Gllisa" target="_blank">
+                            https://github.com/
+                        </a>
+                    </li>
+                    <li class="adtritio"><a href="https://e.mail.ru/inbox/" target="_blank">
+                            https://e.mail.ru/inbox/
+                        </a>
+                    </li>
+                </ul>
             </div>
 
             <div class="feedback">
                 <h4 class="feedback__heading">Напишите нам сообщение</h4>
                 <form action="#">
-                    <input class="input" type="text" placeholder="Кохай"><br>
-                    <input class="input" type="email" placeholder="mail@mail.ru"><br>
-                    <textarea class="input" cols="30" rows="5"
-                        placeholder="Привет! Как дела? Как успехи?"></textarea><br>
+                    <p class="text feedback__text">Ваше имя</p>
+                    <input class="input" type="text" placeholder="Ваше имя"><br>
+                    <p class="text">Почта</p>
+                    <input class="input" type="email" placeholder="Ваша почта"><br>
+                    <p class="text">Сообщение</p>
+                    <textarea class="input" cols="30" rows="7" placeholder="Ваше сообщение"></textarea><br>
                     <button class="send" type="submit">Отправить</Button>
-                    <button class="reset" type="reset">Удалить</button>
                 </form>
             </div>
         </div>
-    </main>
+    </div>
 
     <div class="map container">
-        <script type="text/javascript" charset="utf-8" async
+        <script async
             src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af96a60df998185b0cc461ab72101b1f22b880326d8aa934d51cd636d8f8506d7&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
     </div>
 
     <footer class="red-frame2">
         <div class="container">
             <div class="basement">
-                <div>
+                <div class="basement-left">
                     <h3 class="basement__heading">Понравилась статья?</h3>
-                    <p class=" text basement__paragraph">Поддержи обратной связью!</p>
+                    <p class=" text basement__paragraph">Поддержи обратной
+                        связью!
+                    </p>
+                </div>
+                <div class="basement-right">
+                    <a class="link-talk" href="contacts.html">Напишите нам</a>
                 </div>
             </div>
             <hr>
             <div class="basemet-contacts">
                 <ul class="list">
-                    <li>Наши Контакты</li>
-                    <li>+7 (987) 213-71-32</li>
-                    <li>emaksishkin@mail.ru</li>
+                    <li class="album-items">Наши Контакты</li>
+                    <li class="album-items">+7 (987) 213-71-32</li>
+                    <li class="album-items">emaksishkin@mail.ru</li>
                 </ul>
                 <div class="rights">
                     <p class=" text rights__paragraph">Все права защищены</p>
